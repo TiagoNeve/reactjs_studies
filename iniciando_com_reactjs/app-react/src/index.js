@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Hello from './Hello';
+import Clock from './Clock'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Hello />
+    <Clock />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -30,3 +30,11 @@
     ReactDOM.render(<App />, document.getElementById('root'));
 
     Para cada componente que for criado é necessário criar um arquivo próprio, dessa forma esse componente pode ser reutilizado em qualquer parte do sistema, o que ajuda bastanta na hora de recriar um site com componentes semelhantes.
+
+## JSX como usar
+
+    É possível colocar códigos javascripts na renderização do elemento html, dessa forma fica bem fácil e intuitivo utilizar determinadas funções sem precisar definir uma classe ou id, pois o código JS já vai renderizar naquele ponto do html. Para utilizar esse código basta colocar o mesmo entrer chaves: 
+
+    { new Date().toLocaleString('pt-BR') }
+
+    É possível pegar qualquer informação de qualquer parte do código e renderizar no html utilizando o JSX.
