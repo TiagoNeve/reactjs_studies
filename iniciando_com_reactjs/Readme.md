@@ -38,3 +38,7 @@
     { new Date().toLocaleString('pt-BR') }
 
     É possível pegar qualquer informação de qualquer parte do código e renderizar no html utilizando o JSX.
+
+## Entendendo props
+
+    Todo componente possui um ciclo e todos tem as suas PROPS ou propriedades, uma maneira de manipular essas props é utilizando um constructor(), ele pega as propriedades da classe e consegue receber valores necessários para o funcionamento correto da regra de negócio. 
