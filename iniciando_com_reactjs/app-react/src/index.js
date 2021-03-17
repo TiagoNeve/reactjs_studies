@@ -5,11 +5,12 @@ import App from './App';
 import Hello from './Hello';
 import Clock from './Clock'
 import Props from './Props'
+import State from './State'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Props attr='span' attr2='value2' attr3='value3'/>
+    <State />
   </React.StrictMode>,
   document.getElementById('root')
 );

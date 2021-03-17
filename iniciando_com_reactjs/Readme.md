@@ -46,3 +46,7 @@
 ## Praticando props
 
     É possível criar um template padrão chamado de componente, esse template pode conter variáveis chamadas de props no escopo de sua estrutura, os valores dessas props podem ser declaradas na chamada desse componente, dessa forma é possível utilizar o mesmo componente com valores diferentes, obtendo o mesmo padrão de organização. Isso é principalmente útil em aplicativos e sites com muitas páginas que possuem elementos semelhantes na aparência, mas apenas com dados diferentes, com esse conceito de props é possível reutilizar o template e modificar os dados apresentados nele.
+
+## Entendendo o state
+
+    São coisas únicas do componente. São os dados exclusivos do componente, não podem ser modificados, apenas utilizados e consultados. Captura de informação de uma API, regras de negócios é necessário utilizar o state. Não é possível transitar dados no states, eles são exclusivos daquele componente. Dados de State geralmente são para mostrar algo, por exemplo utiliza os states para consumir os json de uma api e organiza-las no seu componente.
