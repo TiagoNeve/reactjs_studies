@@ -6,11 +6,12 @@ import Hello from './Hello';
 import Clock2 from './Clock2'
 import Props from './Props'
 import State from './State'
+import Events from './Events'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Clock2 />
+    <Events />
   </React.StrictMode>,
   document.getElementById('root')
 );

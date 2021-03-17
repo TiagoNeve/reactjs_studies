@@ -54,3 +54,7 @@
 ## Praticando state e ciclo de vida componentes
 
     Todo componente tem um ciclo de vida que vai do momento que ele é chamado até ele não mais existir no DOM ou VDOM ou na tela. O método Componente têm algumas funções capazes de manipular esses eventos de ciclo de vida, como o componentDidMount e componenteWillMount. Para poder mudar os States, é necessário sempre chamar o método setState, desta forma o state vai ser modificado da maneira como você estruturar. Toda vez que o state for modificado a função de render também será atualizada, então toma cuidado ao se utilizar um componente global e um setState de segundos, para que a página não fique atualizando a todo momento. Sempre que utilizar um setInteval, deve-se uitilizar também um clearInterval para que o set não permanessa ao sair da página.
+
+## Trabalhando com eventos
+
+    Utiliza-se o JSX para tratar eventos no componente, sempre utilizar a forma de escrita Capitalize, pex: onClick. Sempre verificar se os contextos correspondem, caso não correspondam utilize o bind(context), para que os contextos se igualem.
