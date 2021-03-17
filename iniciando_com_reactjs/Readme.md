@@ -21,3 +21,12 @@
     npm install create-react-app -g
 
     create-react-app <NAME>
+
+## Primeiro componente e conceitos por trás
+
+    A classe APP herda os métodos da classe Componente do react, dentro da função render é possível utilizar a notação JSX que é basicamente uma forma de executar javascript dentro de um template html.
+    Toda aplicação reactjs precisa utilizar o ponto de início: 
+
+    ReactDOM.render(<App />, document.getElementById('root'));
+
+    Para cada componente que for criado é necessário criar um arquivo próprio, dessa forma esse componente pode ser reutilizado em qualquer parte do sistema, o que ajuda bastanta na hora de recriar um site com componentes semelhantes.
