@@ -58,3 +58,7 @@
 ## Trabalhando com eventos
 
     Utiliza-se o JSX para tratar eventos no componente, sempre utilizar a forma de escrita Capitalize, pex: onClick. Sempre verificar se os contextos correspondem, caso não correspondam utilize o bind(context), para que os contextos se igualem.
+
+## Oneway bind e listas
+
+    Fluxo unidirecional de dados, em que os dados só vão, não voltam. É possível utilizar os eventos de click para puxar um script que interaja com os states dados, dessa forma é possível pegar os dados desses states e colocar no template utilizando JSX.
