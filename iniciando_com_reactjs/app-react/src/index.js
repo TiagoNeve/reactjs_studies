@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import Hello from './Hello';
 import Clock from './Clock'
+import Props from './Props'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Clock />
+    <Props attr='span' attr2='value2' attr3='value3'/>
   </React.StrictMode>,
   document.getElementById('root')
 );

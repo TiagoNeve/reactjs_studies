@@ -42,3 +42,7 @@
 ## Entendendo props
 
     Todo componente possui um ciclo e todos tem as suas PROPS ou propriedades, uma maneira de manipular essas props é utilizando um constructor(), ele pega as propriedades da classe e consegue receber valores necessários para o funcionamento correto da regra de negócio. 
+
+## Praticando props
+
+    É possível criar um template padrão chamado de componente, esse template pode conter variáveis chamadas de props no escopo de sua estrutura, os valores dessas props podem ser declaradas na chamada desse componente, dessa forma é possível utilizar o mesmo componente com valores diferentes, obtendo o mesmo padrão de organização. Isso é principalmente útil em aplicativos e sites com muitas páginas que possuem elementos semelhantes na aparência, mas apenas com dados diferentes, com esse conceito de props é possível reutilizar o template e modificar os dados apresentados nele.

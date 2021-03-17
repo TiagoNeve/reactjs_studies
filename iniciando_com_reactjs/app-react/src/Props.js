@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Panel from './Panel';
 
 export default class Props extends Component {
     constructor(props) {
@@ -14,6 +15,8 @@ export default class Props extends Component {
         return (
             <div>
                 { attr === 'p' ? <p>PROPS</p>: <h1>PROPS</h1> }
+                <Panel headerColor='red' borderColor='red' headerText='This is a header' data='School of net'/>
+                <Panel headerColor='gray' borderColor='purple' headerText='This is a header' data='School of net'/>
             </div>
         );
     }
